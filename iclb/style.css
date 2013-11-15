@@ -81,12 +81,13 @@ table {
 	#nav_menu {
 		width:412px;
 		float:right;
-		padding:26px 0px 0px 0px;
+		padding:25px 15px 0px 0px;
+		text-align: right;
 	}
 	
 	#nav_menu li {
 		display:inline-block;
-		margin:0px 0px 0px 15px;
+		margin:0px 0px 0px 20px;
 	}
 	
 	#nav_menu li a {
@@ -100,6 +101,7 @@ table {
 	}
 	
 	#nav_menu li a:hover {
+		transition:all 1s ease;
 		color:#479cde;
 	}
 	
@@ -188,6 +190,7 @@ table {
 		#news a:hover,
 		#updates a:hover,
 		#events a:hover {
+			transition:all 1s ease;
 			border-radius:50%;
 		}
 		
