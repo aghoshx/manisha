@@ -172,6 +172,7 @@ table {
 			height:24px;
 			text-decoration:none;		
 			color:#ffffff;
+			transition:all 0.2s ease-in-out;
 		}
 		
 		#news {
@@ -190,7 +191,7 @@ table {
 		#news a:hover,
 		#updates a:hover,
 		#events a:hover {
-			transition:all 1s ease;
+			transition:all 1s ease-in-out;
 			border-radius:50%;
 		}
 		
