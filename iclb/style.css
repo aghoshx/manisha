@@ -103,10 +103,16 @@ margin:0px auto 0px auto;
 	}
 	
 	#slider_section {
-	width:100%;
-	box-shadow:inset 0px 1px 1px #000000;
+		width:100%;
+		box-shadow:inset 0px 1px 1px #000000;
+		position:relative;
 	}	
-	
+	.text_wrap {
+		position : absolute;
+		width : 100%;
+		text-align:center;
+		top: 20%;
+	}	
 	#content_section {
 	width:589px;
 	height:600px;
