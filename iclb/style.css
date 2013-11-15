@@ -56,143 +56,155 @@ table {
 
 /* Regular code begins here */
 #main_contain {
-min-width:1024px;
-width:100%;
-margin:0px auto 0px auto;
+	min-width:1024px;
+	width:100%;
+	margin:0px auto 0px auto;
 }
    
 	#logo_navigation {
-	width:100%;
-	height:58px;
-	background:#ffffff;
+		width:100%;
+		height:58px;
+		background:#ffffff;
 	}
 	
 	#logo_section {
-	position:relative;
-	top:1px;
-	display:block;
-	float:left;
-	width:182px;
-	height:40px;
-	margin:0px 0px 0px 112px;
+		z-index:1;
+		position:relative;
+		top:1px;
+		display:block;
+		float:left;
+		width:182px;
+		height:40px;
+		margin:0px 0px 0px 112px;
 	}
 	
 	#nav_menu {
-	width:412px;
-	float:right;
-	padding:26px 0px 0px 0px;
+		width:412px;
+		float:right;
+		padding:26px 0px 0px 0px;
 	}
 	
 	#nav_menu li {
-	display:inline-block;
-	margin:0px 0px 0px 15px;
+		display:inline-block;
+		margin:0px 0px 0px 15px;
 	}
 	
 	#nav_menu li a {
-	font-family:"Helvetica", Trebuchet MS, Arial, sans-serif;
-	font-weight:bold;
-	font-size:12px;
-	color:#00679d;
-	float:left;
-	text-decoration:none;
-	text-transform:uppercase;
+		font-family:"Helvetica", Trebuchet MS, Arial, sans-serif;
+		font-weight:bold;
+		font-size:12px;
+		color:#00679d;
+		float:left;
+		text-decoration:none;
+		text-transform:uppercase;
 	}
 	
 	#nav_menu li a:hover {
-	color:#479cde;
+		color:#479cde;
 	}
 	
 	#slider_section {
+		color:#ffffff;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		text-transform:uppercase;
 		width:100%;
 		box-shadow:inset 0px 1px 1px #000000;
 		position:relative;
 	}	
+	
+	#slider_section h2 {
+		font-size:20px;
+		text-shadow:0px 2px 1px #121212;
+	}
+	
+	#slider_section h1 {
+		line-height:50px;
+		font-size:30px;		
+		text-shadow:0px 2px 1px #121212;
+	}
+	
 	.text_wrap {
-		position : absolute;
-		width : 100%;
+		position:absolute;
+		width:100%;
 		text-align:center;
-		top: 20%;
+		top:43.14%;
 	}	
+	
 	#content_section {
-	width:589px;
-	height:600px;
-	background:#ffffff;
-	padding:68px 107px 0px 107px;
-	margin:0px auto 0px auto;
+		width:589px;
+		height:600px;
+		background:#ffffff;
+		padding:68px 107px 0px 107px;
+		margin:0px auto 0px auto;
 	}
 	
 		#content_section p {
-		font-family:Georgia, "Times New Roman", Times, serif;
-		font-size:17px;
-		text-align:justify;
-		line-height:24px;
-		margin:0px 0px 30px 0px;
+			font-family:Georgia, "Times New Roman", Times, serif;
+			font-size:17px;
+			text-align:justify;
+			line-height:24px;
+			margin:0px 0px 30px 0px;
 		}
 		
 		#blue_circles_section {
-		width:589px;
-		height:138px;
-		margin:86px 0px 0px 0px;
+			width:589px;
+			height:138px;
+			margin:86px 0px 0px 0px;
 		}
 		
-		#news,
-		#updates,
-		#events {
-		list-style:none;
-		text-align:center;
-		display:block;
-		float:left;
-		font-family:Georgia, "Times New Roman", Times, serif;
-		text-transform:uppercase;
-		font-size:24px;
-		border-radius:50%;
+		#blue_circles_section li {
+			list-style:none;
+			text-align:center;
+			display:block;
+			float:left;
+			font-family:Georgia, "Times New Roman", Times, serif;
+			text-transform:uppercase;
+			font-size:24px;
+			border-radius:50%;
 		}
 		
-		#news a,
-		#updates a,
-		#events a {
-		display:block;
-		width:145px;
-		padding:58px 0px 54px 0px;
-		height:24px;
-		text-decoration:none;		
-		color:#ffffff;
+		#blue_circles_section li a {
+			display:block;
+			width:145px;
+			padding:58px 0px 54px 0px;
+			height:24px;
+			text-decoration:none;		
+			color:#ffffff;
 		}
 		
 		#news {
-		background:#00659c;
-		margin:0px 75px 0px 0px;
+			background:#00659c;
 		}
 		
 		#updates {
-		background:#078ad1;
-		margin:0px 75px 0px 0px;
+			background:#078ad1;
+			margin:0px 75px 0px 75px;
 		}
 		
 		#events {
-		background:#189fe8;
+			background:#189fe8;
 		}
 		
 		#news a:hover,
 		#updates a:hover,
 		#events a:hover {
-		border-radius:80px;
+			border-radius:50%;
 		}
 		
 		#news a:hover {
-		background:;
+			background:#D34CAD;
 		}
 		
 		#updates a:hover {
-		background:;
+			background:#e96ac5;
 		}
 		
 		#events a:hover {
-		background:;
+			background:#f082d1;
 		}
 			
 	#black_footer_section {
-	width:1024px;
-	height:254px;
-	background:#000000;
+		width:100%;
+		height:254px;
+		background:#000000;
 	}
