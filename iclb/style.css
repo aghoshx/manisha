@@ -130,6 +130,7 @@ table {
 		width:100%;
 		text-align:center;
 		top:43.14%;
+		-webkit-text-stroke: 1px rgba(255,255,255,0.5);
 	}	
 	
 	#content_section {
