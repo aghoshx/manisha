@@ -56,12 +56,13 @@ table {
 
 /* Regular code begins here */
 #main_contain {
-width:1024px;
+min-width:1024px;
+width:100%;
 margin:0px auto 0px auto;
 }
    
 	#logo_navigation {
-	width:1024px;
+	width:100%;
 	height:58px;
 	background:#ffffff;
 	}
@@ -83,8 +84,8 @@ margin:0px auto 0px auto;
 	}
 	
 	#nav_menu li {
-	width:81px;
-	float:left;	
+	display:inline-block;
+	margin:0px 0px 0px 15px;
 	}
 	
 	#nav_menu li a {
