@@ -103,9 +103,7 @@ margin:0px auto 0px auto;
 	}
 	
 	#slider_section {
-	width:1024px;
-	height:454px;
-	background:url('img/welcome_bg.jpg') no-repeat;
+	width:100%;
 	box-shadow:inset 0px 1px 1px #000000;
 	}	
 	
