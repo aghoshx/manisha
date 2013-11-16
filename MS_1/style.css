@@ -1,0 +1,193 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.group {
+}
+
+.group:before,
+.group:after {
+   content: "";
+   display: table;
+} 
+.group:after {
+   clear: both;
+}
+
+/* Regular code begins here */
+
+#top_section_contain,
+#main_contain	{
+	margin:0px auto 0px auto;
+}
+
+#top_section_contain	{
+	width:1027px;
+	height:172px;
+	padding:0px 0px 20px 0px;	
+}
+
+	#logo_gov_contain	{
+		width:1027px;
+		height:123px;
+	}
+	
+	#logo	{
+		display:inline-block;
+		float:left;
+		width:103px;
+		height:78px;
+		margin:29px 0px 0px 30px;	
+	}
+	
+	#logo_gov_contain h1	{
+		float:left;
+		margin:46px 0px 0px 0px;
+		padding:0px 0px 0px 15px;
+		color:#71bf44;
+	}
+
+	#menu_book_contain	{
+		width:1027px;
+		height:49px;
+		background:#ffffff;
+		border-bottom:1px dotted #808080;
+		border-top:1px dotted #808080;
+	}
+	
+		#book_a_room	{
+			background:#464646;
+			float:right;
+			margin:9px 0px 0px 0px;	
+		}
+		
+		#book_a_room a	{
+			display:inline-block;
+			width:166px;
+			height:26px;
+			padding:9px 0px 0px 10px;
+			text-decoration:none;
+			color:#ffffff;	
+		}
+		
+		#book_a_room a span	{
+			color:#71bf44;	
+		}
+
+#picture_wide_contain	{
+	width:1000px;
+	height:576px;
+	margin:0px auto 0px auto;
+	background:#000000;
+}
+
+#main_contain	{
+	width:967px;
+	height:917px;
+	padding:36px 30px 30px 30px;
+}
+		
+	#left_contain	{
+		float:left;
+		width:682px;
+		height:702px;
+		background:#000000;
+	}
+		
+	#right_contain	{
+		float:left;
+		width:285px;
+		height:702px;
+		background:#cccccc;
+	}
+		
+	#content2_section	{
+		float:left;
+		width:967px;
+		height:167px; /* 175px - 8px = 167px */
+		border-top:#71bf44 solid 8px;
+	}
+
+	#footer_section {
+		float:left;
+		display:block;
+		width:967px;
+		height:40px;
+		border-bottom:1px dotted #808080;
+		border-top:1px dotted #808080;
+	}
+	
+		#copyright	{
+			float:right;
+			display:inline-block;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:10px;
+			color:#464646;
+			margin:16px 0px 0px 0px;
+		}
+		
+		#copyright a	{
+			text-decoration:none;
+			color:#464646;
+		}
+		
+		#copyright a:hover	{
+			text-decoration:underline;
+		}
+
+/* About Us */
+
+#abt_content1	{
+	width:682px;
+	height:193px;
+}
+
+#abt_content2	{
+	width:682px;
+	height:506px;
+}
+
+#abt_content3	{
+	width:967px;
+	height:253px;
+}
