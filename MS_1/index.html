@@ -4,6 +4,17 @@
 <head>
 <title>Munnar Dreams</title>
 <link rel="stylesheet" href="style.css">
+
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="fonts/Renfrewn_400.font.js" type="text/javascript"></script>
+        <script src="fonts/Lintel-Regular_400.font.js" type="text/javascript"></script>
+        <script src="fonts/AntiqueOliveCompact_700.font.js" type="text/javascript"></script>
+		<script type="text/javascript">			
+			Cufon.replace('h1', { fontFamily: 'Renfrewn' }); // Works without a selector engine
+					
+			Cufon.replace('.antique', { fontFamily: 'AntiqueOliveCompact' });
+			Cufon.replace('.lintel_reg', { fontFamily: 'Lintel-Regular' });
+</script>
 </head>
 
 <body>
@@ -13,12 +24,29 @@
             <a href="/">
             <span id="logo"><img src="images/munnar_dreams_logo.png" /></span>
             <h1>Munnar Dreams</h1></a>
+            
+            <span id="homestay_gold" class="lintel_reg">
+            	<h2>Home Stay</h2>
+                <h3>(Government Approved - Class: Gold)</h3>
+            </span>
             </div>
             
             <div id="menu_book_contain">
-            	<span id="book_a_room">
+            	<nav id="menu_nav" class="antique">
+                <ul>
+                <li><a href="/">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Tariff</a></li>
+				<li><a href="#">Attraction</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li class="last"><a href="#">Contact Us</a></li>
+                </ul>
+                </nav>
+            
+            	<span id="book_a_room" class="antique">
                 <a href="#">Book a <span>Room</span></a></span>
             </div>
+            
         </div>
      </header>   
     
@@ -26,13 +54,50 @@
     
     <div id="main_contain" class="group">
     	<div id="left_contain"></div>
-        <div id="right_contain"></div>
+        <div id="right_contain">
+        <h3><span id="antique_small_grey" class="antique">Get in</span>
+        <span id="antique_small_green" class="antique">Touch!</span></h3>
+        
+        <ul id="right_addy">
+        <li id="right_addy_bold">HOME STAY</li>
+        <li id="right_addy_bold">(Govt. Approved &ndash; Class: Gold)</li>
+        <li>Periyakanal Road, Chinnakanal P.O.</li>
+        <li>Pin- 685 618, Munnar, Kerala, India</li>
+        <li>Tel: +91 4868 249306,</li>
+        <li>Mob:+91 9497737157, 9048946637</li>
+        <li id="right_addy_base">E-mail: munnardreamshs@gmail.com</li>
+        </ul>
+
+        <ul id="right_addy">
+        <li id="right_addy_bold">Regd. Office:</li>
+        <li>Kunnathu Building 1st floor</li>
+        <li>Nettayam, Trivandrum -13, Kerala, India.</li>
+        <li>E-mail: james@munnardreams.com</li>
+        <li id="right_addy_base">Tel: +91 471 2360083</li>
+        
+        <li>Post Box No. 15482, Dubai, U.A.E</li>
+        <li>Fax: +971 4 2734736,</li>
+        <li>Mob:+971-50-6528134</li>
+        <li id="right_addy_base">Email: marketing@munnardreams.com</li>
+        </ul>
+        </div>
     
         <div id="content2_section"></div>
         
-        <div id="footer_section">
+        <footer id="footer_section">
+        <nav id="foot_menu">
+                <ul>
+                <li class="first"><a href="/">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Tariff</a></li>
+				<li><a href="#">Attraction</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact Us</a></li>
+                </ul>
+                </nav>
+        
         <span id="copyright">Copyright &copy; Munnar Dreams Home Stay. Powered by <a href="http://www.klientas.com/">Klientas</a>. All Rights Reserved</span>
-        </div>
+        </footer>
         
     </div>
     

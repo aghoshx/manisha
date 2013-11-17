@@ -81,12 +81,35 @@ table {
 	}
 	
 	#logo_gov_contain h1	{
+		font-family:'Renfrewn_400';
+		font-size:52px;
+		font-weight:bold;
 		float:left;
-		margin:46px 0px 0px 0px;
-		padding:0px 0px 0px 15px;
+		margin:26px 0px 0px 0px;
+		padding:16px 0px 9px 15px;
 		color:#71bf44;
 	}
-
+	
+	#homestay_gold	{
+		display:inline-block;
+		text-align:right;
+		width:285px;
+		height:58px;
+		float:right;
+		color:#464646;
+		margin:42px 30px 0px 0px;	
+	}
+	
+	#homestay_gold h2	{
+		font-family:'Lintel-Regular';
+		font-size:30px;
+	}
+	
+	#homestay_gold h3	{
+		font-family:'Lintel-Regular';
+		font-size:18px;	
+	}
+	
 	#menu_book_contain	{
 		width:1027px;
 		height:49px;
@@ -95,10 +118,38 @@ table {
 		border-top:1px dotted #808080;
 	}
 	
+		#menu_nav	{
+			display:inline-block;
+			float:left;
+			width:700px;
+			height:20px;
+			margin:15px 0px 0px 15px;				
+		}
+		
+		#menu_nav ul li	{
+			font-size:16px;
+			float:left;
+			border-right:#464646 solid 1px;	
+		}
+		
+		#menu_nav ul li.last	{
+			border-right:none;
+		}
+		
+		#menu_nav ul li a	{
+			color:#464646;
+			padding:0px 15px 0px 15px;
+			text-decoration:none;	
+		}
+		
+		#menu_nav ul li a:hover	{
+			color:#71bf44;	
+		}
+	
 		#book_a_room	{
 			background:#464646;
 			float:right;
-			margin:9px 0px 0px 0px;	
+			margin:8px 0px 0px 0px;
 		}
 		
 		#book_a_room a	{
@@ -115,10 +166,10 @@ table {
 		}
 
 #picture_wide_contain	{
-	width:1000px;
+	width:100%;
 	height:576px;
 	margin:0px auto 0px auto;
-	background:#000000;
+	background:#87cff4;
 }
 
 #main_contain	{
@@ -131,16 +182,50 @@ table {
 		float:left;
 		width:682px;
 		height:702px;
-		background:#000000;
+	}
+	
+	#antique_grey_header {		
+		color:#464646;
+	}
+	
+	#antique_green_header	{
+		color:#71bf44;
 	}
 		
 	#right_contain	{
 		float:left;
 		width:285px;
 		height:702px;
-		background:#cccccc;
 	}
+	
+	#antique_small_grey	{
+		color:#464646;
+	}
+	
+	#antique_small_green {
+		color:#71bf44;
+	}
+	
+		#right_addy	{
+			margin:20px 0px 0px 0px;	
+		}
+	
+		#right_addy_bold,
+		#right_addy li	{
+			font-size:15px;
+			font-family:Arial, Helvetica, sans-serif;
+			line-height:21px;
+		}
 		
+		#right_addy_bold {
+			font-weight:bold;	
+		}
+		
+		#right_addy_base	{
+			padding:0px 0px 25px 0px;
+			border-bottom:1px dotted #464646;
+		}
+						
 	#content2_section	{
 		float:left;
 		width:967px;
@@ -156,6 +241,38 @@ table {
 		border-bottom:1px dotted #808080;
 		border-top:1px dotted #808080;
 	}
+	
+		#foot_menu	{
+			display:inline-block;
+			float:left;
+			width:500px;
+			height:12px;
+			margin:15px 0px 0px 15px;				
+		}
+		
+		#foot_menu	ul li	{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			height:12px;
+			font-weight:bold;
+			float:left;
+			background-image:url(images/foot_menu_border.png);
+			background-repeat:no-repeat;
+		}
+		
+		#foot_menu ul li.first	{
+			background-image:none;
+		}
+		
+		#foot_menu ul li a	{
+			color:#464646;
+			margin:0px 15px 0px 15px;
+			text-decoration:none;	
+		}
+		
+		#foot_menu	ul li a:hover	{
+			color:#71bf44;	
+		}
 	
 		#copyright	{
 			float:right;
@@ -175,6 +292,15 @@ table {
 			text-decoration:underline;
 		}
 
+/* Font Classes */
+.antique	{
+	font-family:'AntiqueOliveCompact';
+}
+
+.lintel_reg	{
+	font-family:'Lintel-Regular';
+}
+	
 /* About Us */
 
 #abt_content1	{
