@@ -181,6 +181,8 @@ body	{
 	width:967px;
 	height:917px;
 	padding:36px 30px 30px 30px;
+    box-shadow:	10px 0 10px rgba(119, 119, 119, 0.33), 
+				-10px 0 10px rgba(119, 119, 119, 0.33);
 }
 		
 	#left_contain	{
