@@ -184,12 +184,85 @@ table {
 		height:702px;
 	}
 	
-	#antique_grey_header {		
+	#welcome_to span	{
+		display:block;
+		width:434px;
+	}
+	
+	#welcome_to p	{
+		width:579px;
+		color:#464646;
+		font-size:15px;
+		font-family:Arial, Helvetica, sans-serif;
+		line-height:19px;
+		letter-spacing:-0.2px;
+		padding:0px 40px 20px 0px;
+		margin:20px 0px 20px 0px;
+		border-bottom:2px dotted #7f7e7f;	
+	}
+	
+	#welcome_to img	{
+		float:right;
+	}
+	
+	#luxury_serenity h3 {
+		display:inline-block;
+		float:left;
+		width:450px;
+	}
+	
+	#luxury_serenity p	{
+		float:left;
+		width:310px;
+		color:#464646;
+		font-size:15px;
+		font-family:Arial, Helvetica, sans-serif;
+		line-height:19px;
+		letter-spacing:-0.2px;
+		margin:20px 25px 0px 0px;
+	}
+	
+	#luxury_serenity img	{
+		float:left;
+		margin:29px 0px 0px 0px;
+	}	
+	
+	.antique_grey_header {
+		letter-spacing:-1px;
+		font-size:26px;		
 		color:#464646;
 	}
 	
-	#antique_green_header	{
+	.antique_green_header	{		
+		letter-spacing:-1px;
+		font-size:26px;
 		color:#71bf44;
+	}
+		
+	.discover_more	a {
+		width:140px;
+		height:18px;
+		float:left;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:15px;
+		font-weight:bold;		
+		display:block;
+		background-position:right;
+		background-image:url(images/discover_more_arrow.png);
+		background-repeat:no-repeat;
+		text-decoration:none;
+	}
+	
+	.discover_more a span	{
+		float:left;
+	}
+		
+	.green_font	{
+		color:#71bf44;
+	}
+	
+	.grey_font	{
+		color:#464646;
 	}
 		
 	#right_contain	{
@@ -199,31 +272,49 @@ table {
 	}
 	
 	#antique_small_grey	{
+		font-size:18px;
 		color:#464646;
 	}
 	
 	#antique_small_green {
+		font-size:18px;
 		color:#71bf44;
 	}
 	
-		#right_addy	{
+		.right_addy	{
+			display:block;
 			margin:20px 0px 0px 0px;	
 		}
 	
-		#right_addy_bold,
-		#right_addy li	{
+		.right_addy_bold,
+		.right_addy_base,
+		.right_addy_no_base,
+		.right_addy_reg	{
 			font-size:15px;
 			font-family:Arial, Helvetica, sans-serif;
 			line-height:21px;
+			letter-spacing:-0.2px;
 		}
 		
-		#right_addy_bold {
+		.right_addy_bold {
 			font-weight:bold;	
 		}
 		
-		#right_addy_base	{
-			padding:0px 0px 25px 0px;
-			border-bottom:1px dotted #464646;
+		.right_addy_base	{
+			padding:0px 0px 20px 0px;
+			border-bottom:2px dotted #7f7e7f;
+		}
+		
+		.right_addy_no_base	{
+			border-bottom:0px;
+			padding:0px 0px 20px 0px;
+		}
+		
+		#picture_right_addy	{
+			display:block;
+			width:285px;
+			height:216px;
+			padding:14px 0px 0px 0px;
 		}
 						
 	#content2_section	{
