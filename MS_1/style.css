@@ -56,6 +56,11 @@ table {
 
 /* Regular code begins here */
 
+body	{
+	background-image:url(images/background.png);
+	background-repeat:repeat;
+}
+
 #top_section_contain,
 #main_contain	{
 	margin:0px auto 0px auto;
@@ -198,7 +203,7 @@ table {
 		letter-spacing:-0.2px;
 		padding:0px 40px 20px 0px;
 		margin:20px 0px 20px 0px;
-		border-bottom:2px dotted #7f7e7f;	
+		border-bottom:2px dotted #bababa;	
 	}
 	
 	#welcome_to img	{
@@ -256,6 +261,10 @@ table {
 	.discover_more a span	{
 		float:left;
 	}
+	
+	.discover_content_margin	{
+		margin:10px 0px 0px 0px;	
+	}
 		
 	.green_font	{
 		color:#71bf44;
@@ -302,7 +311,7 @@ table {
 		
 		.right_addy_base	{
 			padding:0px 0px 20px 0px;
-			border-bottom:2px dotted #7f7e7f;
+			border-bottom:2px dotted #bababa;
 		}
 		
 		.right_addy_no_base	{
@@ -320,15 +329,43 @@ table {
 	#content2_section	{
 		float:left;
 		width:967px;
-		height:167px; /* 175px - 8px = 167px */
-		border-top:#71bf44 solid 8px;
+		height:139px; /* 175px - 8px - 28px = 167px */
+		padding:28px 0px 0px 0px;
+		border-top:8px solid #71bf44;
 	}
+	
+		#content2_section img	{
+			float:left;
+		}
+		
+		.bottom_sec_titles1	{
+			width:243px;
+			height:112px;
+			float:left;
+			padding:19px 0px 0px 0px;
+		}
+		
+		.bottom_sec_titles1 a	{
+			margin:11px 0px 0px 0px;	
+		}
+		
+		.bottom_sec_titles2	{
+			width:286px;
+			height:112px;
+			float:left;
+			padding:10px 0px 0px 20px;
+		}
+		
+		.bottom_sec_titles2 a	{
+			margin:7px 0px 0px 0px;	
+		}
 
 	#footer_section {
 		float:left;
 		display:block;
 		width:967px;
 		height:40px;
+		background:#ffffff;
 		border-bottom:1px dotted #808080;
 		border-top:1px dotted #808080;
 	}
