@@ -175,10 +175,7 @@ body	{
 
 #picture_wide_contain	{
 	width:100%;
-	position:relative;
-	height:576px;
 	margin:0px auto 0px auto;
-	background:#87cff4;
 	z-index:10;
 }
 
@@ -205,7 +202,7 @@ body	{
 		width:579px;		
 		padding:0px 40px 20px 0px;
 		margin:20px 0px 20px 0px;
-		border-bottom:2px dotted #bababa;	
+		background:url('images/dots2.png') repeat-x bottom;
 	}
 	
 	#welcome_to p,
@@ -324,7 +321,7 @@ body	{
 		
 		.right_addy_base	{
 			padding:0px 0px 20px 0px;
-			border-bottom:2px dotted #bababa;
+			background:url('images/dots2.png') repeat-x bottom;
 		}
 		
 		.right_addy_no_base	{
@@ -492,7 +489,8 @@ body	{
 	}
 	
 	#abt_content2 p img	{
-		padding:0px 0px 0px 0px; /* for the image in the section I haven't done yet */
+		margin:-40px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
 		float:right;
 	}
 
@@ -507,6 +505,7 @@ body	{
 	float:left;
 	width:967px;
 	height:253px;
+	background:url('images/dots2.png') repeat-x top;
 }	
 
 	#destinations_yearn	{
@@ -532,6 +531,6 @@ body	{
 	}
 	
 	#abt_content3 img	{
-		margin:2px 0px 0px 0px;
+		margin:5px 0px 0px 0px;
 		float:right;	
 	}
