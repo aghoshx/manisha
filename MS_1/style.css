@@ -491,8 +491,8 @@ body	{
 		float:left;
 	}
 	
-	#abt_content2 img	{
-		padding:0px 10px 0px 0px; /* for the image in the section I haven't done yet */
+	#abt_content2 p img	{
+		padding:0px 0px 0px 0px; /* for the image in the section I haven't done yet */
 		float:right;
 	}
 
