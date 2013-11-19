@@ -61,6 +61,7 @@ body	{
 	background-repeat:repeat;
 }
 
+#abt_main_contain,
 #top_section_contain,
 #main_contain	{
 	margin:0px auto 0px auto;
@@ -69,7 +70,9 @@ body	{
 #top_section_contain	{
 	width:1027px;
 	height:172px;
-	padding:0px 0px 20px 0px;	
+	padding:0px 0px 20px 0px;
+	box-shadow:	10px 0 10px rgba(210, 210, 210, 0.33), 
+				-10px 0 10px rgba(210, 210, 210, 0.33);
 }
 
 	#logo_gov_contain	{
@@ -117,10 +120,10 @@ body	{
 	
 	#menu_book_contain	{
 		width:1027px;
-		height:49px;
+		height:52px;
 		background:#ffffff;
-		border-bottom:1px dotted #808080;
-		border-top:1px dotted #808080;
+		background-image:url(images/dots_menu.png);
+		background-repeat:repeat-x;
 	}
 	
 		#menu_nav	{
@@ -172,17 +175,19 @@ body	{
 
 #picture_wide_contain	{
 	width:100%;
+	position:relative;
 	height:576px;
 	margin:0px auto 0px auto;
 	background:#87cff4;
+	z-index:10;
 }
 
 #main_contain	{
 	width:967px;
 	height:917px;
 	padding:36px 30px 30px 30px;
-    box-shadow:	10px 0 10px rgba(119, 119, 119, 0.33), 
-				-10px 0 10px rgba(119, 119, 119, 0.33);
+    box-shadow:	10px 0 10px rgba(210, 210, 210, 0.33), 
+				-10px 0 10px rgba(210, 210, 210, 0.33);
 }
 		
 	#left_contain	{
@@ -210,6 +215,12 @@ body	{
 	
 	#welcome_to img	{
 		float:right;
+	}
+	
+	#luxury_serenity	{
+		background-image:url(images/flowers_bg.png);
+		background-position:90% 0%;
+		background-repeat:no-repeat;
 	}
 	
 	#luxury_serenity h3 {
@@ -283,18 +294,18 @@ body	{
 	}
 	
 	#antique_small_grey	{
-		font-size:18px;
+		font-size:20px;
 		color:#464646;
 	}
 	
 	#antique_small_green {
-		font-size:18px;
+		font-size:20px;
 		color:#71bf44;
 	}
 	
 		.right_addy	{
 			display:block;
-			margin:20px 0px 0px 0px;	
+			margin:16px 0px 0px 0px;	
 		}
 	
 		.right_addy_bold,
@@ -305,6 +316,7 @@ body	{
 			font-family:Arial, Helvetica, sans-serif;
 			line-height:21px;
 			letter-spacing:-0.2px;
+			color:#464646;
 		}
 		
 		.right_addy_bold {
@@ -333,11 +345,16 @@ body	{
 		width:967px;
 		height:139px; /* 175px - 8px - 28px = 167px */
 		padding:28px 0px 0px 0px;
-		border-top:8px solid #71bf44;
+		border-top:8px solid #71bf44;		
+		box-shadow:inset 0px 10px 20px 5px rgba(210, 210, 210, 0.33), inset 0px -20px 20px 5px rgba(210, 210, 210, 0.33);
 	}
 	
 		#content2_section img	{
 			float:left;
+		}
+		
+		#content2_section h3	{		
+			letter-spacing:0.8px;	
 		}
 		
 		.bottom_sec_titles1	{
@@ -366,10 +383,10 @@ body	{
 		float:left;
 		display:block;
 		width:967px;
-		height:40px;
+		height:42px;
 		background:#ffffff;
-		border-bottom:1px dotted #808080;
-		border-top:1px dotted #808080;
+		background-image:url(images/foot_menu_bg.png);
+		background-repeat:repeat-x;
 	}
 	
 		#foot_menu	{
@@ -433,17 +450,98 @@ body	{
 	
 /* About Us */
 
+#abt_main_contain	{	
+	width:967px;
+	height:auto;
+	padding:36px 30px 30px 30px;	
+	box-shadow:10px 0 10px rgba(210, 210, 210, 0.33), -10px 0 10px rgba(210, 210, 210, 0.33);	
+}
+
 #abt_content1	{
 	width:682px;
 	height:193px;
 }
 
+	#abt_content1 p {
+		width:594px;
+		color:#464646;
+		font-size:15px;
+		font-family:Arial, Helvetica, sans-serif;
+		line-height:19px;
+		letter-spacing:-0.2px;
+		padding:0px 40px 20px 0px;
+		margin:0px 0px 20px 0px;
+		border-bottom:2px dotted #bababa;
+	}
+
 #abt_content2	{
 	width:682px;
 	height:506px;
+	margin:20px 0px 0px 0px;
 }
+	
+	#abt_content2 span {
+		width:523px;
+		display:inline-block;
+		letter-spacing:0.7px;
+		float:left;
+	}
+	
+	#abt_content2 img	{
+		position:relative;
+		top:-40px;
+		padding:0px 10px 0px 0px;
+		float:right;
+	}
+
+	#abt_content2 p	{
+		float:left;
+		width:665px;
+		color:#464646;
+		font-size:15px;
+		font-family:Arial, Helvetica, sans-serif;
+		line-height:19px;
+		letter-spacing:-0.2px;
+		padding:0px 40px 0px 0px;
+		margin:15px 25px 0px 0px;
+	}
 
 #abt_content3	{
+	float:left;
 	width:967px;
 	height:253px;
-}
+	border-top:2px dotted #bababa;
+	padding:0px 0px 0px 0px;
+}	
+
+	#destinations_yearn	{
+		width:652px;
+		float:left;	
+	}
+	
+	#destinations_yearn	h3 {
+		width:489px;
+		display:inline-block;
+		float:left;
+		padding:20px 0px 0px 0px;
+	}
+	
+	#destinations_yearn span	{
+		letter-spacing:0.8px;
+	}
+	
+	#destinations_yearn p	{
+		float:left;
+		width:642px;
+		color:#464646;
+		font-size:15px;
+		font-family:Arial, Helvetica, sans-serif;
+		line-height:19px;
+		letter-spacing:-0.2px;
+		margin:15px 0px 0px 0px;
+	}
+	
+	#abt_content3 img	{
+		margin:2px 0px 0px 0px;
+		float:right;	
+	}
